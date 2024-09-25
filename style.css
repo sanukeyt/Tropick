@@ -13,10 +13,21 @@
     bottom: -5px;
     z-index: -1;
 }
-.headertext {
-    float: left;
-    color: #e2e2e2;
-}
 header{
-    background-color: #30303088;                                                              
+    background-color: #30303088;  
+    float: left;
+    color: #e2e2e2;                                                         
+}
+body {
+    font-family: "Noto Sans JP" "System-UI"
+}
+.maintext {
+    background-color: #776b6b;
+}
+.title {
+    background-size: auto;
+    display: flex;
+    border-radius: 10px;
+    color:#213fa5;
+    border-color: #003cff;
 }
